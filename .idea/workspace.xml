@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="590aebaf-cbfe-45b9-ab60-19cfbfb3a372" name="Changes" comment="">
+    <list default="true" id="590aebaf-cbfe-45b9-ab60-19cfbfb3a372" name="Changes" comment="27.10 12:00">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/book/Робинзон Крузо.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/book/Робинзон Крузо.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/book_plus_music/Шторм.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/book_plus_music/Шторм.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Ария Кармен 'Любовь - мятеженая птица'.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Ария Кармен 'Любовь - мятеженая птица'.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Вальс ('Маскарад').mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Вальс ('Маскарад').mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Вальс цветов.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Вальс цветов.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Весна.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Весна.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Зима.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Зима.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Лебединое озеро.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Лебединое озеро.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Лето, Гроза.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Лето, Гроза.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Лунная соната.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Лунная соната.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Осень.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Осень.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/music/Шторм.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Шторм.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Ария Кармен 'Любовь - мятеженая птица'.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Ария Кармен 'Любовь - мятеженая птица'.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Вальс ('Маскарад').txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Вальс ('Маскарад').txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Вальс цветов.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Вальс цветов.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Весна.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Весна.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Зима.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Зима.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Лебединое озеро.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Лебединое озеро.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Лето, гроза.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Лето, гроза.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Лунная соната.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Лунная соната.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Осень.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Осень.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music/text/Шторм.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Шторм.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Ария Кармен 'Любовь - мятеженая птица'.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Ария Кармен 'Любовь - мятеженая птица'.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Вальс цветов.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Вальс цветов.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Весна.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Весна.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Зима.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Зима.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Лебединое озеро.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Лебединое озеро.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Лето.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Лето.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Лунная соната.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Лунная соната.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Маскарад.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Маскарад.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Осень.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Осень.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Шторм.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Шторм.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Библейский потоп.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Библейский потоп.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Красные башмачки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Красные башмачки.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Лада.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Лада.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Нарцисс.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Нарцисс.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Нюкта.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Нюкта.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Пигмалион и Галатея.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Пигмалион и Галатея.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Племя Юрматы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Племя Юрматы.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Похищение Персефоны.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Похищение Персефоны.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Терпсихора.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Терпсихора.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Тор.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Тор.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/story/Фимбулвинтер.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Фимбулвинтер.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_of_all.db" beforeDir="false" afterPath="$PROJECT_DIR$/list_of_all.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_of_all.sqbpro" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +68,9 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="6eec2769-04ac-409d-8710-f516afc6d2c4" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,6 +87,9 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Box Sync\My docs\Дети\Вероника\programm\Проекты\#искусство" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Box Sync\My docs\Дети\Вероника\programm\Проекты\#искусство" />
     </key>
@@ -49,7 +101,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\andre\AppData\Local\Microsoft\WindowsApps\python3.8.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -109,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669528931218</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1st commit">
+      <created>1669529313861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669529313861</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

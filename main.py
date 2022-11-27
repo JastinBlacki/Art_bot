@@ -77,7 +77,7 @@ def callback(call):
 
     elif call.data[:6] == "music_":
         bd_connect, if_conn = create_connection()
-        query1 = """SELECT * FROM information"""
+        query1 = """SELECT * FROM information;"""
         bd = excute_query(bd_connect, query1)
         id_ = call.data[6:]
         for i in bd:
