@@ -10,7 +10,7 @@ bot = telebot.TeleBot('5709988932:AAFJFqPWnQuj5VJD-qavOcpIgjGQU2eKfgA')
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
     bot.send_message(m.chat.id, "Привет, я Александр Николаевич, и я обожаю искусство!")
-    markup = telebot.types.InlineKeyboardMarkup(row_width=1)
+    markup = telebot.types.InlineKeyboardMarkup(row_width=2)
     btn3 = telebot.types.InlineKeyboardButton('Музыка', callback_data='muuusic_all')
     btn4 = telebot.types.InlineKeyboardButton('Живопись', callback_data="piiiicture_all")
     btn5 = telebot.types.InlineKeyboardButton('Поэзия', callback_data='poooem_all')
@@ -53,7 +53,7 @@ def callback(call):
             print("Подключение прервано")
 
     if call.data == "home":
-        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
         btn3 = telebot.types.InlineKeyboardButton('Музыка', callback_data='muuusic_all')
         btn4 = telebot.types.InlineKeyboardButton('Живопись', callback_data='piiiicture_all')
         btn5 = telebot.types.InlineKeyboardButton('Поэзия', callback_data='poooem_all')
@@ -67,7 +67,7 @@ def callback(call):
         bd_connect, if_conn = create_connection()
         query1 = """SELECT * FROM information"""
         bd = excute_query(bd_connect, query1)
-        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
         for i in bd:
             btn1 = telebot.types.InlineKeyboardButton(i[5], callback_data="music_" + str(i[0]))
             markup.add(btn1)
@@ -85,7 +85,7 @@ def callback(call):
                 musician = i[4]
                 music_name = i[5]
                 music_text_path = i[7]
-        music_path = "database/music/music/Вальс цветов.mp3"
+                music_path = i[6]
         markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn1_1 = telebot.types.InlineKeyboardButton("Все муз.произведения",
                                                   callback_data="muuusic_all")
@@ -96,15 +96,13 @@ def callback(call):
         btn1_4 = telebot.types.InlineKeyboardButton("Легенда по этой же теме",
                                                     callback_data="leg" + id_)
         btn3 = telebot.types.InlineKeyboardButton("Картина + муз.произведение",
-                                                  callback_data="together")
+                                                  callback_data="tog" + id_)
         btn2 = telebot.types.InlineKeyboardButton("На главную", callback_data="home")
         markup2 = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn4 = telebot.types.InlineKeyboardButton("Читать дальше",
                                                   callback_data="nxt1" + id_)
-        # cal_data = "say_love" + str(id_) + music_name + "_"
-        # btn3 = telebot.types.InlineKeyboardButton("Поделиться впечатлениями", callback_data=cal_data)
         markup2.add(btn4)
-        markup.add(btn1_1, btn1_2, btn1_3, btn1_4, btn2, btn4, btn3)
+        markup.add(btn1_1, btn1_2, btn1_3, btn1_4, btn2, btn3)
         bot.send_message(call.message.chat.id,
                          text=musician + " '" + music_name + "'".format(
                              call.from_user))
@@ -201,10 +199,10 @@ def callback(call):
                                                     callback_data="poem" + id_)
         btn1_4 = telebot.types.InlineKeyboardButton("Музыка по этой же теме",
                                                     callback_data="music_" + id_)
-        btn1_4 = telebot.types.InlineKeyboardButton("Легенда по этой же теме",
+        btn1_5 = telebot.types.InlineKeyboardButton("Легенда по этой же теме",
                                                     callback_data="leg" + id_)
         btn3 = telebot.types.InlineKeyboardButton("На главную", callback_data="home")
-        markup.add(btn1, btn2, btn1_2, btn1_3, btn1_4, btn3, btn1_4)
+        markup.add(btn1, btn2, btn1_2, btn1_3, btn1_4, btn3, btn1_5)
         text = open(file_path, 'r', encoding='utf-8').read()
         bot.send_message(call.message.chat.id,
                          text=music_name + " + " + picture_name.format(
@@ -293,7 +291,7 @@ def callback(call):
         bd = excute_query(bd_connect, query1)
         markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         for i in bd:
-            btn1 = telebot.types.InlineKeyboardButton(i[12], callback_data="poem" + i[0])
+            btn1 = telebot.types.InlineKeyboardButton(i[12], callback_data="poem" + str(i[0]))
             markup.add(btn1)
         bot.send_message(call.message.chat.id,
                          text="Выбери интересующее тебя произведение".format(
