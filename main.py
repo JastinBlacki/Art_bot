@@ -10,7 +10,7 @@ bot = telebot.TeleBot('5709988932:AAFJFqPWnQuj5VJD-qavOcpIgjGQU2eKfgA')
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
     bot.send_message(m.chat.id, "Привет, я Александр Николаевич, и я обожаю искусство!")
-    markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+    markup = telebot.types.InlineKeyboardMarkup(row_width=1)
     btn3 = telebot.types.InlineKeyboardButton('Музыка', callback_data='muuusic_all')
     btn4 = telebot.types.InlineKeyboardButton('Живопись', callback_data="piiiicture_all")
     btn5 = telebot.types.InlineKeyboardButton('Поэзия', callback_data='poooem_all')
@@ -53,7 +53,7 @@ def callback(call):
             print("Подключение прервано")
 
     if call.data == "home":
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn3 = telebot.types.InlineKeyboardButton('Музыка', callback_data='muuusic_all')
         btn4 = telebot.types.InlineKeyboardButton('Живопись', callback_data='piiiicture_all')
         btn5 = telebot.types.InlineKeyboardButton('Поэзия', callback_data='poooem_all')
@@ -67,7 +67,7 @@ def callback(call):
         bd_connect, if_conn = create_connection()
         query1 = """SELECT * FROM information"""
         bd = excute_query(bd_connect, query1)
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         for i in bd:
             btn1 = telebot.types.InlineKeyboardButton(i[5], callback_data="music_" + str(i[0]))
             markup.add(btn1)
@@ -86,7 +86,7 @@ def callback(call):
                 music_name = i[5]
                 music_text_path = i[7]
         music_path = "database/music/music/Вальс цветов.mp3"
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn1_1 = telebot.types.InlineKeyboardButton("Все муз.произведения",
                                                   callback_data="muuusic_all")
         btn1_2 = telebot.types.InlineKeyboardButton("Картина по этой же теме",
@@ -98,7 +98,7 @@ def callback(call):
         btn3 = telebot.types.InlineKeyboardButton("Картина + муз.произведение",
                                                   callback_data="together")
         btn2 = telebot.types.InlineKeyboardButton("На главную", callback_data="home")
-        markup2 = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup2 = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn4 = telebot.types.InlineKeyboardButton("Читать дальше",
                                                   callback_data="nxt1" + id_)
         # cal_data = "say_love" + str(id_) + music_name + "_"
@@ -132,7 +132,7 @@ def callback(call):
         for i in bd:
             if str(i[0]) == id_:
                 music_text_path = i[7]
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn1 = telebot.types.InlineKeyboardButton("Другие муз.произведения",
                                                   callback_data="muuusic_all")
         btn1_2 = telebot.types.InlineKeyboardButton("Картина по этой же теме",
@@ -161,7 +161,7 @@ def callback(call):
                 picture_path = i[2]
                 picture_name = i[15]
                 picture_text_path = i[3]
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn1_2 = telebot.types.InlineKeyboardButton("Музыка по этой же теме",
                                                     callback_data="music_" + id_)
         btn1_3 = telebot.types.InlineKeyboardButton("Поэзия по этой же теме",
@@ -190,7 +190,7 @@ def callback(call):
                 file_path = i[17]
                 music_name = i[5]
                 picture_name = i[15]
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn1 = telebot.types.InlineKeyboardButton("Все музыкальные произведения",
                                                   callback_data="muuusic_all")
         btn2 = telebot.types.InlineKeyboardButton("Все картины",
@@ -223,7 +223,7 @@ def callback(call):
                 story_name = i[8]
                 story_country = i[9]
                 story_path = i[10]
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn1_4 = telebot.types.InlineKeyboardButton("Картина по этой же теме",
                                                     callback_data="pict" + id_)
         btn1_3 = telebot.types.InlineKeyboardButton("Поэзия по этой же теме",
@@ -253,7 +253,7 @@ def callback(call):
                 poem_name = i[12]
                 poem_path = i[13]
                 poem_text_path = i[14]
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         btn1_2 = telebot.types.InlineKeyboardButton("Музыка по этой же теме",
                                                     callback_data="music_" + id_)
         btn1_4 = telebot.types.InlineKeyboardButton("Легенда по этой же теме",
@@ -279,7 +279,7 @@ def callback(call):
         bd_connect, if_conn = create_connection()
         query1 = """SELECT * FROM information"""
         bd = excute_query(bd_connect, query1)
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         for i in bd:
             btn1 = telebot.types.InlineKeyboardButton(i[15], callback_data="pict" + str(i[0]))
             markup.add(btn1)
@@ -303,7 +303,7 @@ def callback(call):
         bd_connect, if_conn = create_connection()
         query1 = """SELECT * FROM information"""
         bd = excute_query(bd_connect, query1)
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         for i in bd:
             text = "leg" + str(i[0])
             btn1 = telebot.types.InlineKeyboardButton(i[8], callback_data=text)
@@ -316,7 +316,7 @@ def callback(call):
         bd_connect, if_conn = create_connection()
         query1 = """SELECT * FROM information"""
         bd = excute_query(bd_connect, query1)
-        markup = telebot.types.InlineKeyboardMarkup(row_width=2)
+        markup = telebot.types.InlineKeyboardMarkup(row_width=1)
         for i in bd:
             text = "music_"+str(i[0])
             btn1 = telebot.types.InlineKeyboardButton(i[18], callback_data=text)
