@@ -1,54 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="590aebaf-cbfe-45b9-ab60-19cfbfb3a372" name="Changes" comment="27.10 12:00">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/book/Робинзон Крузо.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/book/Робинзон Крузо.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/book_plus_music/Шторм.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/book_plus_music/Шторм.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Ария Кармен 'Любовь - мятеженая птица'.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Ария Кармен 'Любовь - мятеженая птица'.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Вальс ('Маскарад').mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Вальс ('Маскарад').mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Вальс цветов.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Вальс цветов.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Весна.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Весна.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Зима.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Зима.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Лебединое озеро.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Лебединое озеро.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Лето, Гроза.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Лето, Гроза.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Лунная соната.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Лунная соната.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Осень.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Осень.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/music/Шторм.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/music/Шторм.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Ария Кармен 'Любовь - мятеженая птица'.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Ария Кармен 'Любовь - мятеженая птица'.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Вальс ('Маскарад').txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Вальс ('Маскарад').txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Вальс цветов.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Вальс цветов.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Весна.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Весна.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Зима.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Зима.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Лебединое озеро.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Лебединое озеро.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Лето, гроза.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Лето, гроза.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Лунная соната.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Лунная соната.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Осень.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Осень.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music/text/Шторм.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music/text/Шторм.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Ария Кармен 'Любовь - мятеженая птица'.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Ария Кармен 'Любовь - мятеженая птица'.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Вальс цветов.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Вальс цветов.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Весна.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Весна.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Зима.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Зима.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Лебединое озеро.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Лебединое озеро.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Лето.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Лето.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Лунная соната.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Лунная соната.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Маскарад.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Маскарад.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Осень.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Осень.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/music_plus_picture/Шторм.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/music_plus_picture/Шторм.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Библейский потоп.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Библейский потоп.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Красные башмачки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Красные башмачки.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Лада.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Лада.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Нарцисс.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Нарцисс.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Нюкта.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Нюкта.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Пигмалион и Галатея.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Пигмалион и Галатея.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Племя Юрматы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Племя Юрматы.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Похищение Персефоны.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Похищение Персефоны.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Терпсихора.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Терпсихора.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Тор.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Тор.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/story/Фимбулвинтер.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/story/Фимбулвинтер.txt" afterDir="false" />
+    <list default="true" id="590aebaf-cbfe-45b9-ab60-19cfbfb3a372" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Бал в Концертном зале.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Бал в Концертном зале.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Буря на Северном море.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Буря на Северном море.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Зимний вечер в Финляндии.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Зимний вечер в Финляндии.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Золотая осень.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Золотая осень.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Лошади во время грозы.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Лошади во время грозы.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Морской вид при лунном свете.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Морской вид при лунном свете.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Поцелуй.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Поцелуй.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Ранняя весна, оттепель.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Ранняя весна, оттепель.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Царевна-лебедь.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Царевна-лебедь.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/picture/Цветочный натюрморт.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/picture/Цветочный натюрморт.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Бал в Концертном зале.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Бал в Концертном зале.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Буря на Северном море.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Буря на Северном море.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Зимний вечер в Финляндии.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Зимний вечер в Финляндии.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Золотая осень.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Золотая осень.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Лошади во время грозы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Лошади во время грозы.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Морской вид при лунном свете.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Морской вид при лунном свете.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Поцелуй.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Поцелуй.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Ранняя весна, оттепель.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Ранняя весна, оттепель.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Царевна-лебедь.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Царевна-лебедь.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/picture/text/Цветочный натюрморт.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/picture/text/Цветочный натюрморт.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Весна, весна! как воздух чист!...txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Весна, весна! как воздух чист!...txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Гроза.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Гроза.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Есть в осени первоначальной.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Есть в осени первоначальной.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Лебедь.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Лебедь.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Ночной бал.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Ночной бал.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Одной тебе, тебе одной.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Одной тебе, тебе одной.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Плывет луна, и воют волки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Плывет луна, и воют волки.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Поет зима — аукает….txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Поет зима — аукает….txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Полевые цветы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Полевые цветы.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/poem/Шторм.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/poem/Шторм.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Весна, весна! как воздух чист!...txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Весна, весна! как воздух чист!...txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Гроза.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Гроза.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Есть в осени первоначальной.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Есть в осени первоначальной.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Лебедь.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Лебедь.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Ночной бал.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Ночной бал.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Одной тебе, тебе одной.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Одной тебе, тебе одной.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Плывет луна, и воют волки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Плывет луна, и воют волки.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Поет зима — аукает….txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Поет зима — аукает….txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Полевые цветы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Полевые цветы.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/poem/text/Шторм.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/poem/text/Шторм.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list_of_all.db" beforeDir="false" afterPath="$PROJECT_DIR$/list_of_all.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_of_all.sqbpro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669529313861</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="27.10 12:03">
+      <created>1669532596217</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669532596217</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +188,7 @@
     <MESSAGE value="2nd commit" />
     <MESSAGE value="Revert &quot;first commit&quot;&#10;&#10;This reverts commit 50bf4a9e693dd407c62f867ce2a28c757e9ff9b0.&#10;&#10;# Conflicts:&#10;#&#9;main.py" />
     <MESSAGE value="1st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
+    <MESSAGE value="27.10 12:03" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.10 12:03" />
   </component>
 </project>
