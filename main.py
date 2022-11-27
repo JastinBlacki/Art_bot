@@ -84,8 +84,8 @@ def callback(call):
             if id_ == str(i[0]):
                 musician = i[4]
                 music_name = i[5]
-                music_path = i[6]
                 music_text_path = i[7]
+        music_path = "database/music/music/Вальс цветов.mp3"
         markup = telebot.types.InlineKeyboardMarkup(row_width=2)
         btn1_1 = telebot.types.InlineKeyboardButton("Все муз.произведения",
                                                   callback_data="muuusic_all")

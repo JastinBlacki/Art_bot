@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590aebaf-cbfe-45b9-ab60-19cfbfb3a372" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/66efda2a-8a25-4241-acf9-5b8a61289b4b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6d116a40-6fbc-47fe-8056-6e60d85be69b.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../НТО/3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -109,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669458350227</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1st commit">
+      <created>1669528931218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669528931218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
