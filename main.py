@@ -4,7 +4,7 @@ from sqlite3 import Error
 
 from telebot.types import InlineKeyboardButton
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('5709988932:AAFJFqPWnQuj5VJD-qavOcpIgjGQU2eKfgA')
 
 
 @bot.message_handler(commands=["start"])
@@ -34,7 +34,7 @@ def _command_(message):
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback(call):
-    def create_connection(path="E:\Box Sync\My docs\Дети\Вероника\programm\Проекты\#искусство\list_of_all.db"):
+    def create_connection(path="list_of_all.db"):
         connection = None
         try:
             connection = sqlite3.connect(path)
