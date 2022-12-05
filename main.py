@@ -6,6 +6,7 @@ from telebot.types import InlineKeyboardButton
 
 bot = telebot.TeleBot('5709988932:AAFJFqPWnQuj5VJD-qavOcpIgjGQU2eKfgA')
 
+#TODO: реализовать отлов ошибок
 
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
@@ -152,7 +153,7 @@ def callback(call):
         bd_connect, if_conn = create_connection()
         query1 = """SELECT * FROM information"""
         bd = excute_query(bd_connect, query1)
-        id_ = call.data[4:5]
+        id_ = call.data[4:]
         for i in bd:
             if str(i[0]) == id_:
                 artist = i[1]
