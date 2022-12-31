@@ -146,7 +146,7 @@ def callback(call):
         markup.add(btn1_4, btn1_3, btn1_2, btn1, btn4, btn2)
         text = open(music_text_path, 'r', encoding="utf-8").read()
         bot.send_message(call.message.chat.id,
-                         text=text[count:].format(
+                         text=text.format(
                              call.from_user), reply_markup=markup)
 
     elif call.data[:4] == "pict":

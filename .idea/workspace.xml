@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590aebaf-cbfe-45b9-ab60-19cfbfb3a372" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/#искусство.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/#искусство.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +37,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "E:/Box Sync/My docs/Дети/Вероника/programm/Проекты/#искусство",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;E:/Box Sync/My docs/Дети/Вероника/programm/Проекты/#искусство&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Box Sync\My docs\Дети\Вероника\programm\Проекты\#искусство" />
@@ -99,8 +95,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.#искусство" />
+      <item itemvalue="Python.main" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -210,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669538208932</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="04.12 20:48 v1.3">
+      <created>1670255328366</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670255328366</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +237,7 @@
     <MESSAGE value="27.10 13:20 v1.0" />
     <MESSAGE value="27.10 13:20 v1.1" />
     <MESSAGE value="27.10 13:20 v1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.10 13:20 v1.2" />
+    <MESSAGE value="04.12 20:48 v1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.12 20:48 v1.3" />
   </component>
 </project>
